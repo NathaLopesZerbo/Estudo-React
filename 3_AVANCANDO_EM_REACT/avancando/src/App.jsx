@@ -6,6 +6,10 @@ import './App.css'
 //Imagem em Assets
 import day from './assets/img1.jpg';
 
+//  useState  
+import Data from './components/Data';
+import ListRender from './components/ListRender';
+
 function App() {
 
   return (
@@ -16,6 +20,10 @@ function App() {
           <img src="/city.jpg" alt="Alguma imagem" />
           {/* Imagem em Assets */}
           <img src={day} alt="Outra imagem" />
+          {/* useState */}
+          <Data />
+          {/* Render de Lista */}
+          <ListRender />
       </div>
     </>
   )
